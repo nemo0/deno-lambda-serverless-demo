@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "any-name-you-want"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1t4963pv15joi"
+s3_prefix = "any-name-you-want"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
